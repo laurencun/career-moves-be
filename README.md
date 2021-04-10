@@ -1,24 +1,33 @@
-# README
+# Career Moves Rails Backend
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Career Moves is an online job board for candidates that are looking to make a major career change. 
 
-Things you may want to cover:
+Users can sign up as a cadidate or recruiter and view job listings.
 
-* Ruby version
+Cadidates can fill out forms to apply for jobs that are later emailed to the recruiter.
 
-* System dependencies
+Recruiters can post new job listings and delete old ones.
 
-* Configuration
+Ruby Version and Dependencies
 
-* Database creation
+Ruby 2.6.3
 
-* Database initialization
+Get Started
 
-* How to run the test suite
+Fork or clone repository
+Open in code editor
+Run bundle install
 
-* Services (job queues, cache servers, search engines, etc.)
+Create and Seed Database 
 
-* Deployment instructions
+Run rails db:migrate
+Then rails db:seed
 
-* ...
+Testing with RSpec and Capybara
+
+All tests can be ran with rake
+Or run rspec spec/spec_file_name_here.rb
+
+Once your environment is set up...
+
+Run the app with rails s and view at localhost:3000
