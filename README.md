@@ -23,11 +23,11 @@ Run bundle install
 Run rails db:migrate
 Then rails db:seed
 
-<h3> Testing with RSpec and Capybara <h3/>
+<h3> Testing with RSpec and Capybara </h3>
 
 All tests can be ran with rake
 Or run rspec spec/spec_file_name_here.rb
 
-<h3> Once your environment is set up... <h3/>
+<h3> Once your environment is set up... </h3>
 
 Run the app with rails s and view at localhost:3000
