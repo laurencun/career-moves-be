@@ -12,7 +12,7 @@ Recruiters can post new job listings and delete old ones.
 
 Ruby 2.6.3
 
-<h3>Get Started<h3/>
+<h3>Get Started</h3>
 
 Fork or clone repository
 Open in code editor
