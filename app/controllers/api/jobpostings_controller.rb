@@ -1,6 +1,6 @@
-class Api::JobPostingsController < ApplicationController
+class Api::JobpostingsController < ApplicationController
   def index
-    jobpostings = JobPosting.all
+    jobpostings = Jobposting.all
     render json: jobpostings, status: 200
   end
 end

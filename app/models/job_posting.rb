@@ -1,2 +1,0 @@
-class JobPosting < ApplicationRecord
-end
